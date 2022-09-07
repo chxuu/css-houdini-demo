@@ -1,0 +1,30 @@
+/* #el {
+  --color-stop: deeppink;
+  background: linear-gradient(white, var(--color-stop));
+  transition: --color-stop 1s;
+  width: 152px;
+  height: 152px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+#el:hover {
+  --color-stop: deepskyblue;
+} */
+
+@property --color-stop {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: transparent;
+}
+
+#el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold 3em "Comic sans MS", cursive;
+  width: 100%;
+  height: 300px;
+  background: paint(double-rainbow);
+  --thick: 0;
+  --rad: 1;
+}

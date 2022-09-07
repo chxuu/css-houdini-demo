@@ -1,0 +1,20 @@
+.rating {
+  --rating: 3;
+  --star-corners: 5;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 0 auto;
+  height: 60px;
+  stroke: orange;
+  fill: orange;
+  background: paint(star-rating);
+  transition: all 0.5s;
+}
+.rating:hover {
+  stroke: red;
+  fill: red;
+}
+.title {
+  font-size: 30px;
+  text-align: center; 
+}

@@ -1,0 +1,25 @@
+html {
+  height: 100vh;
+  background: linear-gradient(black 60%, #041931);
+}
+
+.expando {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transform: rotate(180deg);
+  background: yellow;
+}
+.bg {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  top: 300px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

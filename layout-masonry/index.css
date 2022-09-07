@@ -1,0 +1,18 @@
+#masonry {
+  display: layout(masonry);
+  --padding: 58;
+  --columns: 3;
+  max-height: 200px;
+}
+
+#masonry > div:nth-child(odd) {
+  background: #08c4c4;
+}
+
+#masonry > div:nth-child(even) {
+  background: #f11599;
+}
+
+.masonry-wrapper {
+  max-height: 200px;
+}
